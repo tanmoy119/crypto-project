@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+     
+}
+
+.data{
+    display: flex;
+}
+
+#main{
+    padding: 30px 40px 0px 40px;
+}
+
+.content-table{
+    border-collapse:collapse ;
+    color:aqua;
+    width: 100%;
+    font-size: 30px;
+}
+.content-table thead tr {
+    color: #858586;
+    text-align: left;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+
+    color: #ffffff;
+    background-color:rgb(60, 66, 88);
+    border: 15px solid rgb(28, 29, 31);;
+    border-top-left-radius: 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.trr{
+    padding: 20px;
+}
+
+.bitcoin{
+
+    color: white;
+     font-size: 100px;
+
+}
+
+.images img{
+    width: 100%;
+    
+}
+
+.fa-telegram{
+    font-size: 50px;
+    position: relative;
+    left: 250px;
+}
+
+  .pad{
+    padding: 20px ;
+  
+}   
+
+.navbar h1{
+    color: aqua;
+    font-size: 50px;
+}
+
+
+.navbar h3{
+    color: gray;
+    position: relative;
+    top: -20px;
+}
+
+.navbar section{
+    position: relative;
+    top: -85px;
+    left: 80px;
+    width: 100%;
+}
+
+.horizon ul{
+ 
+    margin: auto;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     width: 90%;
+     text-decoration: none;
+     list-style: none;
+     color: aqua;
+}
+
+
+
+.price{
+    position: relative;
+    top: -60px;
+    right: 30px;
+    display: flex;
+    color: grey;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.navbar{
+   
+    top: 0;
+    padding: 10px;
+    overflow-x: hidden;
+    
+    
+}
+
+body{
+    width: 100%;
+}
+
+
+.navbar section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.navbar options{
+    padding: 20px;
+}
+
+
+.nav-list{
+    
+   
+    align-items: center; 
+    
+}
+
+
+
+.nav-list li a {
+    
+    color:white;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+.background{
+    
+     background-color: rgb(28, 29, 31);
+}
+
+
+
+
+.text-big{
+    font-size: 30px;
+
+}
+
+.text-small{
+font-size: 19px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 5px 2px;
+    border: 2px solid rgb(41, 43, 46);
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(41, 43, 46);
+    color: white;
+
+}
+.btn option {
+    color: black;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
