@@ -17,23 +17,26 @@ const options = {
 axios.request(options).then(  async (res)=>{
 
     const gdata =  res.data;
+   // console.log(gdata);
     const jdata = Object.entries(gdata);
+    console.log(JSON.parse(JSON.stringify(gdata.aliceinr)));
 
+     const newkeys = Object.keys(gdata);
   
 
-   for (let i = 0; i <10; i++) {
-    const l = jdata[i];
-       const adata = new coin({
-           name:l[1].name,
-           last:l[1].last,
-           buy:l[1].buy,
-           sell:l[1].sell,
-           volume:l[1].volume,
-           base_unit:l[1].base_unit 
-       });
-       const sdata = await adata.save();
-       //console.log(adata);
-   }
+//    for (let i = 0; i <10; i++) {
+//     const l = jdata[i];
+//        const adata = new coin({
+//            name:l[1].name,
+//            last:l[1].last,
+//            buy:l[1].buy,
+//            sell:l[1].sell,
+//            volume:l[1].volume,
+//            base_unit:l[1].base_unit 
+//        });
+//      //  const sdata = await adata.save();
+//        console.log(adata);
+//   }
 
 })
 
