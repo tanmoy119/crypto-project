@@ -19,7 +19,7 @@ axios.request(options).then(  async (res)=>{
     const gdata =  res.data;
    // console.log(gdata);
     const jdata = Object.entries(gdata);
-    console.log(JSON.parse(JSON.stringify(gdata.aliceinr)));
+    //console.log(JSON.parse(JSON.stringify(gdata.aliceinr)));
 
      const newkeys = Object.keys(gdata);
   
